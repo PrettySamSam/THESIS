@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bc">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="75dp"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:paddingLeft="25dp">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+
+        android:text="Back"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+
+        android:paddingLeft="25dp"
+        android:weightSum="1">
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:ems="10"
+            android:textSize="50dp"
+            android:inputType="textPersonName"
+            android:text="SATISFIED?"
+            android:paddingLeft="50dp"
+            android:layout_weight="0.66" />
+    </LinearLayout>
+<LinearLayout
+    android:paddingLeft="70dp"
+
+    android:layout_width="300dp"
+    android:layout_height="289dp"
+    android:orientation="vertical"
+    android:paddingBottom="25dp">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/defi" />
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton2"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/verylikely" />
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton3"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/neural" />
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton4"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/probablynot" />
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton5"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/noway" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingLeft="250dp">
+
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Not now"/>
+
+    </LinearLayout>
+
+</LinearLayout>
